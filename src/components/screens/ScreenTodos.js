@@ -48,8 +48,8 @@ class ScreenTodos extends Component {
             <View>
                 <AddTodo/>
                 <Text>All Todos Screen</Text>
-                {/*<Button title='View' onPress={() => this.goToScreen('TodoItemScreen')}/>*/}
-                <FlatList data={this.props.todos} renderItem={({item, index})  => <TodoItem componentId={this.props.componentId} index={index} item={item}/>}
+                <FlatList data={this.props.todos}
+                          renderItem={({item, index})  => <TodoItem componentId={this.props.componentId} index={index} item={item}/>}
                 />
             </View>
         );

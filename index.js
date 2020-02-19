@@ -29,7 +29,7 @@ Navigation.events().registerAppLaunchedListener(() => {
                 id:'AppStack',
                 children: [{
                     component: {
-                        name: "TodosScreen"
+                        name: "TodosScreen",
                     }
                 }]
             }

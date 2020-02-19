@@ -68,8 +68,10 @@ const styles = StyleSheet.create({
     button: {
         marginBottom: 3,
         alignItems: 'center',
-        backgroundColor: '#5ead97',
-        shadowColor:'#e6e6e6'
+        backgroundColor: '#327a28',
+        shadowColor:'#e6e6e6',
+        borderRadius: 20
+
 
     },
     buttonText: {

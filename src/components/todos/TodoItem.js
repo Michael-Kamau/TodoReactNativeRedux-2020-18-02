@@ -47,7 +47,7 @@ class TodoItem extends Component {
                 <Text>Title</Text>
                 <View style={styles.item}>
                 <Text style={{textDecorationLine:this.props.item.completed? "line-through":"none"}}>{this.props.item.title}</Text>
-                <Button title='View' onPress={() => this.goToScreen('TodoItemScreen')}/>
+                <Button title='View' color='#327a28' onPress={() => this.goToScreen('TodoItemScreen')}/>
                 </View>
 
             </View>

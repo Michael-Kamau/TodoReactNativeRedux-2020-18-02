@@ -3,13 +3,13 @@ import {uuid} from 'uuidv4';
 
 
 export const fetchTodos=()=> dispatch=> {
-    console.log('fetching')
-    fetch('https://jsonplaceholder.typicode.com/todos')
-        .then(res => res.json())
-        .then(todos => dispatch({
-            type: FETCH_TODOS,
-            payload: todos
-        }))
+    // console.log('fetching')
+    // fetch('https://jsonplaceholder.typicode.com/todos')
+    //     .then(res => res.json())
+    //     .then(todos => dispatch({
+    //         type: FETCH_TODOS,
+    //         payload: todos
+    //     }))
 }
 
 

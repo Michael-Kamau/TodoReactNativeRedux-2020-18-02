@@ -46,7 +46,7 @@ class ScreenTodoItem extends Component {
         return (
 
             <View style={styles.container}>
-                <Text>Todo Item </Text>
+                <Text style={styles.title}>Todo Item </Text>
                 <Text>Title</Text>
                 <Text  style={{textDecorationLine:this.props.todos[this.props.index].completed ? "line-through":"none"}}>{this.props.todos[this.props.index].title}</Text>
                 <View style={styles.buttons}>
@@ -103,16 +103,19 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     buttonToggle: {
-        marginBottom: 30,
+        marginBottom: 10,
         width: 200,
         alignItems: 'center',
-        backgroundColor: '#5ead97'
+        backgroundColor: '#219eff',
+        borderRadius: 20
     },
     buttonDelete: {
-        marginBottom: 30,
+        marginBottom: 10,
         width: 200,
         alignItems: 'center',
-        backgroundColor: '#ad1843'
+        backgroundColor: '#ad1843',
+        borderRadius: 20
+
     },
     buttonText: {
         padding: 20,
